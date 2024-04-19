@@ -36,7 +36,7 @@ public class CalculadoraIMC {
                     return "Obesidade grau III (obesidade mórbida)";
                 }
             } else {
-                return "Erro na entrada de dados";
+                return "Err";
             }
         } else if (idade >= 20) {
             if (imc < 16) {
